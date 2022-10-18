@@ -39,5 +39,7 @@ header nav ul li {
 }
 
 .labels h2 {
-    float: left;
+    margin-bottom: 100px;
+    text-align: right;
+
 }
