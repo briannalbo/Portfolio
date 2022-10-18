@@ -27,10 +27,8 @@ header nav ul li {
 }
 
 .labels {
-    margin-left: 25px;
     padding: 20px;
     border: 20px solid white;
-    clear: both;
     float: left;
     width: 25%;
     height: 100%;
@@ -39,7 +37,26 @@ header nav ul li {
 }
 
 .labels h2 {
-    margin-bottom: 100px;
+    margin-bottom: 400px;
     text-align: right;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    color: aliceblue;
+}
 
+.work {
+    padding: 20px;
+    border: 20px solid white;
+    float: right;
+    width: 75%;
+    height: 100%;
+    background-color: orange;
+}
+
+.work div{
+    display: inline-block;
+    border: 5px solid black;
+    padding: 80px;
+    /* display: inline; */
+    flex-wrap: wrap;
 }
