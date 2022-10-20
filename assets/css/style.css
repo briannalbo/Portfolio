@@ -23,7 +23,14 @@ header nav ul li {
     padding: 0px;
     float:right;
     display: inline-flex;
+    margin-left: 25px;
 
+}
+a{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 14px;
+    color: rgb(219, 219, 179);
+    display: inline-block;
 }
 
 .labels {
@@ -64,7 +71,7 @@ header nav ul li {
     float: right;
     width: 75%;
     height: 100%;
-    background-color: orange;
+    background-color: white;
 }
 .aboutme {
     padding: 20px;
