@@ -85,10 +85,10 @@ header nav ul li {
     background-position: center;
 }
 
-#calm-rocks h2 {
-    
-    float: left;
-    padding-top: 250px;
+.box {
+    width: 250px;
+    margin: 100px, 200px solid black;
+    background-color: blueviolet;
 }
 
 .first-row {
