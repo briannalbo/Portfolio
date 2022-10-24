@@ -103,30 +103,33 @@ a{
 }
 
 
-#calm-rocks {
-    background-image: url(../images/calm-rocks.jpg);
-    background-size: cover;
-    background-position: center;
+#refact {
+    background-image: url(../images/refact.png);
     border: 2px solid black;
     text-align: center;
     height: 550px;
     width: 900px;
     position: absolute;
     top: 550px;
-    right: 40px;
+    right: 50px;
     display: inline-block;
     
 }
-#calm-rocks h2 {
+#refact a {
+    position: relative;
+    height:500px;
+    width: 900px;
+}
+#refact h2 {
     z-index: 100;
     font-size: 24px;
     position: absolute;
-    left: 150px;
+    left: 10px;
     top: 350px;
     float:left;
-    background-color: blue;
+    background-color: lightslategray;
 }
-#calm-rocks:hover{
+#refact:hover{
     opacity: .7;
     position: absolute;
 }
