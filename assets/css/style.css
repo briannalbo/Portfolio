@@ -55,7 +55,7 @@ a{
     color: aliceblue;
 }
 #work{
-    margin-bottom: 800px;
+    margin-bottom: 925px;
     text-align: right;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 26px;
@@ -69,38 +69,53 @@ a{
     color: aliceblue;
 }
 
-.content {
-    padding: 20px;
-    border: 20px solid white;
-    float: right;
-    width: 75%;
-    height: 100%;
-    background-color: white;
-    position: relative;
-}
+
 .aboutme {
-    padding: 20px;
+    float: right;
+    width: 70%;
+    border: 20px black;
+    padding:0px;
     border: 20px solid white;
-    /* float: right; */
-    width; 75%;
-    height:25%;
+    
+}
+.aboutme div{
+    display: inline-flex;
+}
+.writing {
+    float:left;
+    /* text-align: center; */
+    /* display: inline-block; */
     background-color: blue;
+    width: 650px;
+    height: 360px;
+}
+/* .aboutme div{ */
+    /* top: 400px; */
+}
+.photo {
+    float:left;
 }
 
-#calm-rocks {
-    /* position: relative; */
-    border: 5px black;
-    text-align: center;
-    height: 400px;
-    width: 100%;
-    margin-bottom: 25px;
-    color:blueviolet;
-    backface-visibility: hidden;
+#me {
+    float:right;
+    width: 225px;
+    height: 350px;
 }
-#calm-rocks img {
-    display: block;
-    left: 0;
-    top:0;
+
+
+#calm-rocks {
+    background-image: url(../images/calm-rocks.jpg);
+    background-size: cover;
+    background-position: center;
+    border: 2px solid black;
+    text-align: center;
+    height: 550px;
+    width: 900px;
+    position: absolute;
+    top: 550px;
+    right: 40px;
+    display: inline-block;
+    
 }
 #calm-rocks h2 {
     z-index: 100;
@@ -111,7 +126,7 @@ a{
     float:left;
     background-color: blue;
 }
-#calm-rocks img:hover{
+#calm-rocks:hover{
     opacity: .7;
     position: absolute;
 }
@@ -120,8 +135,9 @@ a{
 
 
 #clock {
-
-
+    background-image: url(../images/clock.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
 
@@ -150,7 +166,7 @@ a{
 
 
 .first-row {
-    top: 950px;
+    top: 1100px;
     right:50px;
     position:absolute;
     margin: 7px;
@@ -169,7 +185,7 @@ a{
     margin: 7px;
     display: inline-block
     flex-wrap: wrap;
-    bottom: -670px;
+    bottom: -820px;
     left: 390px;
     background: transparent;
 }
@@ -186,16 +202,28 @@ a{
 }
 
 
-footer div{
+footer {
+    top: 1020px;
+    width: 900px;
+    height:30px;
+    border: 5px blue;
+    
     font-size: 16px;
+    display: inline-block;
+    position: relative
+}
+footer div{
     display: inline-block;
 }
 .phone{
     float: left;
+    padding-left: 50px;
+    border-right: 30px;
 }
 .email{
     padding-left: 200px;
+    padding-right: 170px;
 }
 .github{
-    float:right;
+    /* float:right; */
 }
