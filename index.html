@@ -1,15 +1,21 @@
 <!DOCTYPE html>
 <html lang="en-us">
+<!--establishes doctype as html and language as english-->
+
 
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
+    <!--links css stylesheet to html doc-->
+    <!--gives webpage a title relevant to its purpose-->
     <title>Brianna's Portfolio</title>
 </head>
 
 <body>
+<!--creates a header for page with my name in it because its my portfolio-->
 <header>
     <h1>Brianna</h1>
+<!--created a nav section with 'a' tags linked to the different sections on the page-->
     <nav>
         <ul>
             <li>
@@ -24,15 +30,16 @@
             <li>
                 <a href= "#aboutme"> About Me</a>
                 </li>
-        
+        <!--the list items are linked to each corresponding section-->
 
         </ul>
     </nav>
 
 </header>
 
+<!--created a section for the label tags that correspond with the links in the nav-->
 <section class="labels">
-
+<!--separated each label h2 into ids so i could style and position them in css-->
     <div id="aboutme">
     <h2>About Me</h2>
     </div>
@@ -43,6 +50,7 @@
         <h2>Contact Me</h2>
     </div>
 </section>
+<!--created and aboutme section to contain a paragraph about myself and included a picture-->
 <section class="aboutme">
     <div class="writing">
         <h2> Welcome to my Portfolio!</h2>
@@ -59,20 +67,23 @@
             in order to enhance my new career in Web-Development.
             
     </p></div>
-    <div class=photo><img src="./assets/images/me.jpg" id="me"/></div>
+    <div><img src="./assets/images/me.jpg" id="me"/></div>
     
 </section>
 
-    
+<!--This section is my first example of my work in my portfolio-->
+<!--it is supposed to be bigger so i separated it from the smaller sections-->
     <section id="refact">
     <a href="https://briannalbo.github.io/horiseon2/" target="_blank"></a>
+    <!--this ahref above links the section to the live webpage i displayed as the background image-->
         <h2>Refactor Challenge</h2>
         
     </section>
-<section class="space"></section>
+
+    <!--I separated the four cards into two classes:first-row and second-row to format them in css-->
     <section class="first-row">
         <article class="card" id="clock">
-            
+            <!--i gave classes and ids for different styling needs in css; used id for background image and class to establish universal styling of cards-->
         <h3>example one</h3>
         </article>
     <article class="card" id="computer">
@@ -86,19 +97,20 @@
         <h3>example four</h3>
         </article>
     <article class="card" id="bells">
-        <img src="./assets/images/bells.jpg" alt="bells" style="width:100%" style="height:100%"/>
+        
         <h3>example five</h3>
     </article>
     
     </section>
 
-
+<!--the footer sections is the contact me section; lined up the corresponding label 'contactme' with this section where i provided my contact info-->
     <footer>
         <div class="phone"><p> 555-555-5555 </p>
         </div>
           <div class="email"> <p> brianna.albo@gmail.com </p>
         </div>
            <div class="github">
+            <!--this link brings users directly to my github account from the webpage-->
             <a href="https://github.com/briannalbo" target="_blank"> My Github Profile</a>
             </div>
     </footer>

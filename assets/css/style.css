@@ -4,6 +4,7 @@
     marigin: 0px;
 }
 
+/* defines the header colors and gives it padding and color */
 header {
     border: 18px solid rgb(143, 179, 214);
     padding: 30px 20px 0px 20px;
@@ -11,6 +12,7 @@ header {
     
 }
 
+/* positions h1 in the header of portfolio, assigns its font type, size, and color */
  header h1{
     padding-top: 30px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -19,25 +21,30 @@ header {
     display: inline;
 
  }
+
+ /* positions the nav and list items to the right side of webpage  */
 header nav ul li {
     color: beige;
-    padding: 0px;
     float:right;
     display: inline-flex;
     margin-left: 25px;
 
 }
+
+/* assigns font type, size, and display of each item in the nav */
 a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 14px;
     color: rgb(219, 219, 179);
     display: inline-block;
 }
+
+/* creates hover effect for each anchor tag (about me, work, etc) */
 a:hover{
 color: blanchedalmond;
 }
 
-
+/* defines the container and positioning of the section with the label tags linked to each section on the nav bar */
 .labels {
     padding: 20px;
     border: 20px solid transparent;
@@ -45,18 +52,9 @@ color: blanchedalmond;
     width: 25%;
     height: 100%;
     position: relative;
-
-}
-.labels div{
-    display: block;
-}
-.lables h2{
-    display: flex;
-    border:20px rgb(143, 179, 214);
-    background-color: rgb(34, 125, 155);
-    border-right-color: brown;
 }
 
+/* defines border, colors, font, and position of about me sections label tag */
 #aboutme {
     float: right
     display: flex;
@@ -69,17 +67,19 @@ color: blanchedalmond;
     border: 10px solid rgb(143, 179, 214);
     background-color: rgb(34, 125, 155);
 }
+
+/* postions aboutme h2 within border */
 #aboutme h2{
-  
     width:200px;
     height:75px;
     position: relative;
     display: ;
     top:-20px;
-    left:-25px;
+    left:-15px;
     text-align: center;
-    border-bottom: 20px;
 }
+
+/* defines font, border and colors of work section label */
 #work{
     margin-bottom: 810px;
     width: 140px;
@@ -91,6 +91,8 @@ color: blanchedalmond;
     border: 10px solid rgb(143, 179, 214);
     background-color: rgb(34, 125, 155);
 }
+
+/* positions h2 writing within label border */
 #work h2{
     width:120px;
     height:65px;
@@ -98,6 +100,8 @@ color: blanchedalmond;
     top:-25px;
     left:-15px;
 }
+
+/* defines colors and font for contactme section label */
 #contactme{
     text-align: match-parent;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -108,41 +112,34 @@ color: blanchedalmond;
     position: relative;
     width: 220px;
     height:60px;
-    /* top:160px; */
-    /* left:90px; */
+  
 }
+
+/* postions h2 writing within border */
 #contactme h2{
     position: relative;
     top:-20px;
 }
 
 
-
+/* defines container for entire about me section */
 .aboutme {
-    /* float: right; */
     width: 600px;
     height: 400px;
     border: 20px black;
     padding:0px;
     border: 20px solid white;
     display: flex;
+}
 
-    
-}
-.aboutme div{
-    /* display: inline-flex; */
-}
+/* assigns font and display of h2 in about me section to make it bigger than the following paragraph */
 .writing h2{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 26px;
-    /* position:relative; */
-    /* width:400px; */
-    /* height:300px; */
-    /* top:20px; */
     display: inline-flex;
-    /* flex-wrap: wrap; */
-
 }
+
+/* assigns font, positioning, and display type of the paragraph section in the aboutme section */
 .writing p{
     float:left;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -150,54 +147,37 @@ color: blanchedalmond;
     width: 650px;
     height: 360px;
     display: inline-flex;
-    /* position: relative; */
-    /* top:60px; */
-    /* left:-400px; */
     flex-wrap: wrap;
 }
 
-.photo {
-    /* position: relative; */
-    /* top:-400px; */
-    /* right:-600px; */
-    flex-wrap: wrap;
-    display: inline-flex;
-    /* display:flex; */
-    /* border:20px; */
-
-}
-
+/* establishes size and placement of the picture of myself in the aboutme section */
 #me {
-    /* border: 20px; */
     float:right;
     width: 225px;
     height: 350px;
+    flex-wrap: wrap;
+    display: inline-flex;
 }
 
-
+/* establishes height, width, background image, display type and margin size to separate from section below */
 #refact {
     background-image: url(../images/refact.png);
     border: 2px solid black;
-    /* text-align: center; */
     height: 550px;
     width: 900px;
     position: relative;
     display:inline-block;
-    /* flex-direction: row; */
     margin-bottom: 20px;
-    /* top: 550px; */
-    /* right: 50px; */
-    /* display: inline-flex; */
-    /* float: right; */
-    /* column-gap: 20px; */
-    flex-basis: 0;
-    
 }
+
+/* establishes the section to open a link to a webpage when clicked */
 #refact a {
     position: relative;
     height:550px;
     width: 900px;
 }
+
+/* styles and positions header to fit on top of image */
 #refact h2 {
     font-size: 24px;
     position: absolute;
@@ -206,32 +186,43 @@ color: blanchedalmond;
     float:left;
     background-color: lightslategray;
 }
+
+/* /* gives hover effect to this section  */
 #refact:hover{
     opacity: .7;
 }
 
 
 
-
+/* gives background image for card */
 #clock {
     background-image: url(../images/clock.jpg);
     background-size: cover;
     background-position: center;
 }
 
-
+/* gives background image for card */
 #computer {
     background-image: url(../images/computer.jpg);
     background-size: cover;
     background-position: center;
 }
 
+/* gives background image for card */
 #water {
     background-image: url(../images/water.jpg);
     background-size: cover;
     background-position: center;
 }
 
+/* gives background image for card */
+#bells {
+    background-image: url(../images/bells.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+/* establishes design of individual cards(height,width, border,) and gives flex wrap property */
 .card {
     width: 445px;
     height: 175px;
@@ -243,40 +234,29 @@ color: blanchedalmond;
 }
 
 
-
+/* positions first row of cards, establishes border to separate images, tells images to wrap */
 .first-row {
-    /* top: 1100px; */
-    /* right:50px; */
     position:relative;
     margin: 7px;
     display: inline-flex;
     flex-wrap: wrap;
-    /* height:600px; */
-    /* width:550px; */
 }
 
+/* positions and tells the second row of cards to wrap when screen shrinks;establishes margin size of second row */
 .second-row {
     position: relative;
     margin: 7px;
     display: inline-block;
     flex-wrap: wrap;
-    /* bottom: -830px; */
-    /* left: 390px; */
     display: inline-flex;
 }
 
+/* creates the hover effect for the cards that are placeholders for future webpages in the portfolio */
 .card:hover {
    opacity: .7;
 }
-#bells img {
-    width: 445px;
-    height: 170px;
-    background-position: center;
-    position: absolute;
-    background: transparent;
-}
 
-
+/* designs footer font and background and positioning */
 footer {
     width: 900px;
     height:30px;
@@ -293,18 +273,20 @@ footer div{
     position:relative;
     top:-10px;
 }
+/* positions my phone number within the footer */
 .phone{
     float: left;
     padding-left: 50px;
     border-right: 30px;
 }
+/* positions my email address to be centered in footer */
 .email{
     padding-left: 200px;
     padding-right: 170px;
 }
 
 /* removes label section when width size falls below 750px */
-@media only screen and (max-width:750px) {
+@media only screen and (max-width:700px) {
     .labels{
         display: none;
     }
