@@ -81,7 +81,7 @@ color: blanchedalmond;
 
 /* defines font, border and colors of work section label */
 #work{
-    margin-bottom: 810px;
+    margin-bottom: 950px;
     width: 140px;
     height: 65px;
     text-align: right;
@@ -160,59 +160,106 @@ color: blanchedalmond;
 }
 
 /* establishes height, width, background image, display type and margin size to separate from section below */
-#refact {
-    background-image: url(../images/refact.png);
+#currency {
+    background-image: url(../images/currencyproject.png);
     border: 2px solid black;
     height: 550px;
     width: 900px;
     position: relative;
     display:inline-block;
     margin-bottom: 20px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 8%;
 }
 
 /* establishes the section to open a link to a webpage when clicked */
-#refact a {
+#currency a {
     position: relative;
     height:550px;
     width: 900px;
 }
 
 /* styles and positions header to fit on top of image */
-#refact h2 {
-    font-size: 24px;
+#currency h2 {
+    font-size: 40px;
     position: absolute;
     left: 10px;
-    top: 350px;
+    top: 40px;
     float:left;
-    background-color: lightslategray;
+    background-color: rgb(184, 197, 211);
 }
 
 /* /* gives hover effect to this section  */
-#refact:hover{
+#currency:hover{
     opacity: .7;
 }
 
 
 
 /* gives background image for card */
-#clock {
-    background-image: url(../images/clock.jpg);
+#hori {
+    background-image: url(../images/refact.png);
     background-size: cover;
     background-position: center;
 }
-
-/* gives background image for card */
-#computer {
-    background-image: url(../images/computer.jpg);
-    background-size: cover;
-    background-position: center;
+#hori div{
+    width:445px;
+    height:40px;
+    background-color: gainsboro;
+    position: relative;
+    border-bottom: 1px dashed black;
+    
+}
+#hori a{
+    width:445px;
+    height: 175px;
+    position: absolute;
 }
 
 /* gives background image for card */
-#water {
-    background-image: url(../images/water.jpg);
+#passgen {
+    background-image: url(../images/passgen.png);
     background-size: cover;
     background-position: center;
+}
+#passgen div{
+    width:445px;
+    height:40px;
+    background-color: gainsboro;
+    position: absolute;
+    border-bottom: 1px dashed black;
+    
+}
+
+#passgen a {
+    width: 445px;
+    height: 175px;
+    position: absolute;
+}
+
+/* gives background image for card */
+#quiz {
+    background-image: url(../images/quizpic.png);
+    background-size: cover;
+    background-position: center;
+    
+}
+#quiz div{
+    width:445px;
+    height:40px;
+    background-color: gainsboro;
+    position: relative;
+    border-bottom: 1px dashed black;
+    
+}
+#quiz div h3{
+    padding-bottom: 5px;
+}
+
+#quiz a {
+    width: 445px;
+    height: 175px;
+    position: absolute;
 }
 
 /* gives background image for card */
@@ -225,12 +272,14 @@ color: blanchedalmond;
 /* establishes design of individual cards(height,width, border,) and gives flex wrap property */
 .card {
     width: 445px;
-    height: 175px;
+    height: 250px;
     border: 2px solid black;
     position: relative;
     display: inline-flex;
     flex-wrap: wrap;
-
+    font-size: 18px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 8%;
 }
 
 
@@ -258,7 +307,8 @@ color: blanchedalmond;
 
 /* designs footer font and background and positioning */
 footer {
-    width: 900px;
+    float: right;
+    width: 995px;
     height:30px;
     border: 5px;
     font-size: 16px;
@@ -276,13 +326,17 @@ footer div{
 /* positions my phone number within the footer */
 .phone{
     float: left;
-    padding-left: 50px;
+    padding-left: 30px;
     border-right: 30px;
 }
 /* positions my email address to be centered in footer */
 .email{
-    padding-left: 200px;
+    padding-left: 180px;
     padding-right: 170px;
+}
+
+.github {
+    padding-right: 150px;
 }
 
 /* removes label section when width size falls below 750px */
