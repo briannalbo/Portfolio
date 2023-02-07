@@ -31,6 +31,8 @@ header nav ul li {
 
 }
 
+
+
 /* assigns font type, size, and display of each item in the nav */
 a{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
@@ -160,6 +162,38 @@ color: blanchedalmond;
 }
 
 /* establishes height, width, background image, display type and margin size to separate from section below */
+#mood {
+    background-image: url(../images/reflection.png);
+    border: 2px solid black;
+    height: 550px;
+    width: 900px;
+    position: relative;
+    display:inline-block;
+    margin-bottom: 20px;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 8%;
+}
+
+#mood a {
+    position: relative;
+    height:550px;
+    width: 900px;
+}
+
+#mood h2 {
+    font-size: 40px;
+    position: absolute;
+    left: 10px;
+    top: 40px;
+    float:left;
+    background-color: rgb(184, 197, 211);
+}
+
+#mood:hover{
+    opacity: .7;
+}
+
+
 #currency {
     background-image: url(../images/currencyproject.png);
     border: 2px solid black;
@@ -283,6 +317,19 @@ color: blanchedalmond;
 }
 
 
+#little {
+    float: right;
+    width: 950px;
+    height: 550px;
+}
+
+#right {
+width: 600px;
+height: 550px;
+flex-direction: column;
+/* float: right; */
+/* align-content: center; */
+}
 /* positions first row of cards, establishes border to separate images, tells images to wrap */
 .first-row {
     position:relative;
@@ -293,6 +340,7 @@ color: blanchedalmond;
 
 /* positions and tells the second row of cards to wrap when screen shrinks;establishes margin size of second row */
 .second-row {
+    
     position: relative;
     margin: 7px;
     display: inline-block;
